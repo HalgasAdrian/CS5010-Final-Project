@@ -1,0 +1,24 @@
+# Rooms
+Room, Waiting Room, Waiting, 10, 20, 30, 40
+Room, Exam Room 1, Exam, 50, 60, 70, 80
+Room, Exam Room 2, Exam, 90, 100, 110, 120
+Room, Surgery Room 1, Surgery, 130, 140, 150, 160
+
+# Staff
+Staff, Dr. John Smith, Doctor, PhD, 123456789
+Staff, Dr. Bill Hammond, Doctor, PhD, 382491829
+
+# Patients
+Patient, Jane Doe, 1990-05-14, 2024-10-10 12:30, flu, 23
+Patient, Bob Johnson, 1985-11-23, 2024-12-09 10:00, cold, 24
+Patient, Steve Polansky, 2000-11-23, 2024-05-04 09:00, Stomach ache, 25
+
+# Actions
+Assign, Jane Doe, Waiting Room
+Assign, Bob Johnson, Exam Room 1
+Assign, Steve Polansky, Exam Room 2
+Assign, Jane Doe, Surgery Room 1
+AssignStaff, Jane Doe, Dr. John Smith
+AssignStaff, Bob Johnson, Dr. Bill Hammond
+DeactivateStaff, Doctor Bill Hammond
+SendHome, Jane Doe, Dr. John Smith
